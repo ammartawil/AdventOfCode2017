@@ -6,7 +6,6 @@ with open('input.txt', 'r') as f:
     jumps = f.read().strip().split()
 
 current_position = 0
-# jump = int(jumps[current_position])
 total_jumps = 0
 
 while current_position < len(jumps):
